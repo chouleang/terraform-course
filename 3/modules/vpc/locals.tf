@@ -6,4 +6,5 @@ locals {
       Project     = "Terraform-Course"
     }
   )
+  test = "test"
 }

@@ -1,6 +1,6 @@
 output "vpc_id" {
   description = "VPC ID"
-  value = aws_vpc.main
+  value = aws_vpc.main.id
 }
 output "vpc_cidr" {
   description = "VPC CIDR block"
@@ -17,4 +17,8 @@ output "private_subnet_ids" {
 output "internet_gateway_id" {
   description = "Internet Gateway ID"
   value = aws_internet_gateway.main.id
+}
+output "sent_local" {
+  description = "Local variable test"
+  value = local.test
 }
