@@ -3,7 +3,7 @@
 *.tfstate.*
 crash.log
 *.tfstate.backup
-
+*.pem
 # Local provider cache
 **/.terraform/*
 .terraform/
